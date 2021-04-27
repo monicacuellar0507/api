@@ -1,0 +1,62 @@
+.conten {
+  background-image: url(../img/img2.png);
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  position: relative;
+}
+
+.conten:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgb(8, 8, 8);
+  position: absolute;
+  opacity: 0.5;
+}
+
+.conten h1,
+h2,
+h3,
+hr {
+  position: relative;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode';
+  font-size: 90%;
+  color: #666;
+}
+#map {
+  height: 40%;
+  width: 60%;
+}
+
+.conten h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 36px;
+  text-align: center;
+  color: #eaf8e4;
+}
+.conten h2 {
+  text-align: center;
+  font-size: 20px;
+  color: #faeff4;
+}
+.conten h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  text-align: right;
+  color: #e4f0eb;
+}
+.conten select {
+  text-align: center;
+  color: #a80e54;
+}
+
+.conten hr {
+  text-align: center;
+  width: 90%;
+  border: 1px dashed #f19cc6;
+}

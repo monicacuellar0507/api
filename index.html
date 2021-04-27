@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ </head>
+  <body>
+    <div class="conten">
+      <h1>BIENVENIDOS</h1>
+      <hr>
+    <h2><label for="location" class="title">Seleccione La Ciudad De Su Interes:</label>
+			<select class="ciudad" id="ciudad">
+      <option value=""select>Seleccione...</option>
+			<option value="bo">Colombia</option>
+			<option value="arg">Argentina</option>
+      <option value="ven">Venezuela</option>
+			<option value="peru">Peru</option>
+      <option value="chi">Chile</option>
+      <option value="ecu">Ecuador</option>
+      <option value="bol">Bolivia</option>
+      <option value="para">Paraguay</option>
+      <option value="uru">Uruguay</option>
+      <option value="bra">Brasil</option>
+
+			</select>
+      <div id="resultado"></div>
+      <button id="boton"> Traer Datos</button>
+      <button id="person"> Personas</button>
+      <input type="button" value="Limpiar Pantalla" onclick="location.reload()">
+      <hr>
+      <h4>
+      <h3>
+      <div id="contenedor">
+      <script src="./js/app.js"></script>
+      </div>
+    </h3>
+  </h4>
+    </h2><hr>
+    <div id="map"></div>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCKiIqCdZGrVxx06LSbe7uG3zXOq1Cz5k&callback=initMap" async defer>
+    </script>
+    </div>
+  </body>
+
+</html>
